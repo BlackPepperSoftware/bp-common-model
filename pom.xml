@@ -16,10 +16,10 @@
 	<name>Black Pepper Common Model</name>
 	
 	<scm>
-		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-model.git</connection>
-		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-model.git</developerConnection>
+		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-common-model.git</connection>
+		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-common-model.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://blackpepper.codebasehq.com/projects/black-pepper-common/repositories/bp-common-model</url>
+		<url>https://github.com/BlackPepperSoftware/bp-common-model</url>
 	</scm>
 
 	<dependencies>
