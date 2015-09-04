@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>uk.co.blackpepper</groupId>
+		<artifactId>bp-parent</artifactId>
+		<version>1.0.3</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>uk.co.blackpepper.common</groupId>
+	<artifactId>bp-common-model</artifactId>
+	<version>1.0.2-SNAPSHOT</version>
+
+	<name>Black Pepper Common Model</name>
+	
+	<scm>
+		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-model.git</connection>
+		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-model.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://blackpepper.codebasehq.com/projects/black-pepper-common/repositories/bp-common-model</url>
+	</scm>
+
+	<dependencies>
+
+		<!-- Guava -->
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>18.0</version>
+		</dependency>
+		
+		<!-- FindBugs -->
+
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>annotations</artifactId>
+			<version>2.0.3</version>
+		</dependency>		
+		
+		<!-- JUnit -->
+	
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- Mockito -->
+	
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>1.9.5</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- Hamcrest -->
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-library</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+</project>
